@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Portfolio template</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+  <div class="jumbotron text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs12">
+          <h1>Projects</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+<body onLoad="MM_preloadImages('img/readmore.png')">
+<nav class="navbar navbar-default">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myDefaultNavbar1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="home.html">Home</a> </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="myDefaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li><a href="projects.html">Projects<span class="sr-only">(current)</span></a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+</div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<section>
+	<div class="container">
+		<div class="row">
+        	<div class="col-lg-12 text-center">
+            	<h2>Latest Work</h2>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 text-center">
+            <h3>Airport Runway Control Center</h3>
+            <a href="airplane.html"><img src="img/airplane.png" alt="Airport sign" width="200" height="200" class="media-center" id="airplane" onMouseOver="MM_swapImage('airplane','','img/readmore.png',1)" onMouseOut="MM_swapImgRestore()"></a>                
+                <div class="text-left">
+                  <p>The airport simulator is a turn-based simulator. Within each turn, a number of events  specified below, occur. A clock (an integer) is used to track the number of turns. Each turn  takes one clock tick. Your simulator needs to determine which planes land and take off at each  turn.  A plane may be sitting on the ground waiting to take off or a plane may be in the air waiting to  land. The planes in the air have a non-negative integer amount of fuel. During each turn, the  fuel of each in-air plane is reduced by one. Once a plane in the air reaches zero fuel that plane  must land before the next turn or that plane will crash. A priority queue, using fuel as priority,  must be used to track planes waiting to land. This allows planes to land in priority order (zero  fuel has highest priority, 1 unit has the next priority, etc.).  A non-priority queue must be used to track planes waiting to take off. Planes take off in the  order in which they entered the system (FIFO). Both queues must store the clock tick (an  integer) in which the given plane enters the system.  The airport has three runways. During each turn, each runway may either land exactly one  plane or allow exactly one plane to take off. A runway may not both land and launch a plane in  the same turn. A runway may also sit idle for a turn if no plane needs to land or take off. (via Pacific University)</p>
+                </div>
+            </div>
+        	<div class="col-md-6 text-center">
+            <h3>Huffman Coding Encryption/Decryption</h3>
+            <a href="https://en.wikipedia.org/wiki/Huffman_coding#/media/File:Huffman_tree_2.svg"><img src="img/huffman.png" alt="Huffman encoding/decoding tree" width="200" height="200" class="media-center" id="huffman" onMouseOver="MM_swapImage('huffman','','img/readmore.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+              
+                <div class="text-left"><p>	The output from Huffman's algorithm can be viewed as a variable-length code table for encoding a source symbol (such as a character in a file). The algorithm derives this table from the estimated probability or frequency of occurrence (weight) for each possible value of the source symbol.
+                 As in other entropy encoding methods, more common symbols are generally represented using fewer bits than less common symbols. Huffman's method can be efficiently implemented, finding a code in linear time to the number of input weights if these weights are sorted. However, although optimal among methods encoding symbols separately, Huffman coding is not always optimal among all compression methods.</p></div>
+            </div>
+        </div>
+        <tr>
+        <div class="row">
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><a href="boomshine.html"><img src="img/boomshine.png" alt="" width="200" height="200" id="boomshine" onMouseOver="MM_swapImage('boomshine','','img/readmore.png',1)" onMouseOut="MM_swapImgRestore()" border="0"></a></div>
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="img/dataQ.png" alt="" width="200" height="200" id="dataQ" onMouseOver="MM_swapImage('dataQ','','img/readmore.png',1)" onMouseOut="MM_swapImgRestore()"></div>
+			<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="img/200x200.gif" alt=""></div>
+        	<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="img/200x200.gif" alt=""></div>
+      </div>
+      <hr>
+        <div class="row">
+        
+          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="img/200x200.gif" alt=""></div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="img/200x200.gif" alt=""></div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="img/200x200.gif" alt="">
+        
+</div>
+          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="img/200x200.gif" alt=""></div>
+        </div>
+        </tr>
+	</div>
+</section>
+<hr>
+<hr>
+<div class="section well">
+    <div class="container">
+   	  <div class="row">
+		<div class="col-lg-4 col-md-6">
+		  <h3 class="text-center">GET IN TOUCH</h3>
+          <address class="text-center">
+  <strong>Michael Rapacon</strong><br>
+  American Canyon<br>
+  CA, 94503, US<br>
+  <abbr title="Phone">P:</abbr> (707) 652-4362
+</address>
+</div>
+		<div class="col-lg-4 col-md-6">
+		  <h3 class="text-center">NEWSLETTER</h3>
+          <form>
+    <div class="form-group col-lg-9 col-md-8 col-sm-10 col-xs-10">
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    </div>
+<button type="submit" class="btn btn-default">Subscribe<br>
+</button>
+</form>
+		</div>
+</div>
+    </div>
+	</div>
+    <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © Michael Rapacon. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-1.11.2.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

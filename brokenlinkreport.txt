@@ -1,0 +1,42 @@
+Broken Links: 
+
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eot
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eotglyphicons-halflings-regular.eot?#iefix
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eotglyphicons-halflings-regular.eot?#iefixglyphicons-halflings-regular.woff2
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eotglyphicons-halflings-regular.eot?#iefixglyphicons-halflings-regular.woff2glyphicons-halflings-regular.woff
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eotglyphicons-halflings-regular.eot?#iefixglyphicons-halflings-regular.woff2glyphicons-halflings-regular.woffglyphicons-halflings-regular.ttf
+acary/ac12/bootstrap.css	glyphicons-halflings-regular.eotglyphicons-halflings-regular.eot?#iefixglyphicons-halflings-regular.woff2glyphicons-halflings-regular.woffglyphicons-halflings-regular.ttfglyphicons-halflings-regular.svg#glyphicons_halflingsregular
+acary/ac12/projects.html	experience.htl
+
+
+External Links: 
+
+acary/ac12/contact.html	mailto:mikerapacon@gmail.com
+acary/ac12/contact.html	http://www.solano.edu/
+acary/ac12/contact.html	http://www.pacificu.edu
+acary/ac12/jquery-1.11.2.min.js	/a
+acary/ac12/jquery-1.11.2.min.js	/a
+acary/ac12/jquery-1.11.2.min.js	/a
+acary/ac12/projects.html	https://en.wikipedia.org/wiki/Huffman_coding#/media/File:Huffman_tree_2.svg
+acary/ac12/jQueryAssets/jquery-1.11.1.min.js	/a
+acary/ac12/jQueryAssets/jquery-1.11.1.min.js	/a
+acary/ac12/jQueryAssets/jquery-1.11.1.min.js	/a
+acary/ac12/js/jquery-1.11.2.min.js	/a
+acary/ac12/js/jquery-1.11.2.min.js	/a
+acary/ac12/js/jquery-1.11.2.min.js	/a
+
+
+Orphaned Files: 
+
+acary/ac12/bootstrap.css
+acary/ac12/bootstrap.min.js
+acary/ac12/files/boomshine/BoomshineDriver.cpp
+acary/ac12/img/35X35.gif
+acary/ac12/img/400x400.gif
+acary/ac12/img/placeholder.png
+acary/ac12/videos/boomshine.avi
+acary/ac12/videos/boomshine.mp4
+
+
+Files: 64 Total,  15 HTML,  8 Orphaned
+Files 143 All links,  123 OK,  7 Broken,  13 External
